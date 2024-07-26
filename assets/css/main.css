@@ -1563,6 +1563,9 @@ input, select, textarea {
 			}
 
 	footer {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 		margin: 2.25em 0 0 0;
 	}
 
@@ -1602,11 +1605,14 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 	
+	
 	.projectBox {
 		background: #282C35;
 		border: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
-		height: 97%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 		.projectBox .image.featured {
@@ -1844,6 +1850,7 @@ input, select, textarea {
 /* Actions */
 
 	ul.actions {
+		margin-top: auto;
 		list-style: none;
 		padding-left: 0;
 	}
