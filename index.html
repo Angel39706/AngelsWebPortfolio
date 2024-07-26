@@ -10,8 +10,10 @@
 	<title>Angel Martinez Web Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body class="homepage is-preload">
@@ -21,7 +23,7 @@
 		<section id="header">
 
 			<!-- Logo -->
-			<h1><a>Angel Martinez</a></h1>
+			<h1><a class="myNameTitle">Angel Martinez</a></h1>
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -116,51 +118,85 @@
 							<header class="major">
 								<h2> Professional Experience</h2>
 							</header>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<section class="box">
-										<a class="image featured"><img src="images/ngap.webp" alt="" /></a>
-										<header>
-											<h3>nGap Incorporated</h3>
-											<p>September 2023 - December 2023</p>
-										</header>
-										<p>● Prototyped and developed backend services in a microservice environment
-											using Docker, Python, and RabbitMQ, including RESTful API endpoint creation
-											with Flask for seamless communication</p>
-										<p>● Documented Backend APIs using Swagger and facilitated integration with
-											Swagger UI, ensuring readability and smooth developer collaboration</p>
-										<p>● Implemented an asynchronous consumer and producer with C# and RabbitMQ to
-											consume sensitive documents that were encoded in base64 and enrich the data
-											within the Transformation layer of ETL</p>
-										<p>● Developed RESTful API endpoints using Python and its library flask</p>
-										<p>● Utilized CRUD operations to develop business logic regarding user-generated
-											records with the usage of SQL and pythons ORM SQLAlchemy</p>
-									</section>
+	
+							<div id="carouselExampleIndicators" class="carousel slide">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="d-flex justify-content-center">
+											<section class="expBox">
+												<header class="d-flex align-items-center">
+													<div class="ml-3">
+														<h3>Headstarter AI</h3>
+														<p>September 2023 - December 2023</p>
+													</div>
+												</header>
+												<div class="description">
+													<p>● Building a Pantry Tracker application using ReactJS, NextJS, and Firebase, showcasing my ability to create full-stack solutions
+														<br>
+														● Collaborating on AI Customer Support and AI Flashcards projects leveraging OpenAI, NextJS, AWS, and StripeAPI, demonstrating teamwork and advanced tech proficiency.
+														<br>
+														● Participating in weekly hackathons and demo sessions, refining my project management, collaboration, and presentation skills in a fast-paced environment.
+														<br>
+														● Selected Track A for Final Project: Aiming to achieve 1,000 people on a waitlist, 1,000 accounts created, or $1,000 in revenue. This track aligns with our team's strengths and provides clear targets for demonstrating success.</p>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="d-flex justify-content-center">
+											<section class="expBox">
+												<header class="d-flex align-items-center">
+													<div class="ml-3">
+														<h3>nGap Incorporated</h3>
+														<p>September 2023 - December 2023</p>
+													</div>
+												</header>
+
+												<div class="description">
+													<p>● Prototyped and developed backend services in a microservice environment using Docker, Python, and RabbitMQ, including RESTful API endpoint creation with Flask for seamless communication<br>
+														● Documented Backend APIs using Swagger and facilitated integration with Swagger UI, ensuring readability and smooth developer collaboration <br>
+														● Implemented an asynchronous consumer and producer with C# and RabbitMQ to consume sensitive documents that were encoded in base64 and enrich the data within the Transformation layer of ETL<br>
+														● Developed RESTful API endpoints using Python and its library flask<br>
+														● Utilized CRUD operations to develop business logic regarding user-generated records with the usage of SQL and Python's ORM SQLAlchemy</p>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="d-flex justify-content-center">
+											<section class="expBox">
+												<header class="d-flex align-items-center"> 
+													<div class="ml-3">
+														<h3>MDNR Energy Technology LLC</h3>
+													<p>May 2023 - August 2023</p>
+													</div>
+												</header>
+												<div class="description">
+													<p>● Developed an iOS application with SwiftUI along with the MVVM architecture<br>
+														● Integrated real-time API updates resulting in a 25% efficiency boost in power consumption<br>
+														● Implemented NSNotifications for power system tracking, resulting in a decrease of inefficiencies by 30%, cutting unnecessary costs through timely alerts for deviations<br>
+														● Visualized power consumption data throughout the day by generating interactive graphs Enabled users to intuitively visualize and analyze power consumption patterns for informed decision-making to maintain efficiency in power consumption<br>
+														● Leveraged Bitbucket for version control, facilitating seamless collaboration and efficient code management</p>
+												</div>
+											</section>
+										</div>
+									</div>
 								</div>
-								<div class="col-6 col-12-small">
-									<section class="box">
-										<a class="image featured"><img src="images/MDNRWebLogo.png" alt="" /></a>
-										<header>
-											<h3>MDNR Energy Technology LLC</h3>
-											<p>May 2023 - August 2023</p>
-										</header>
-										<p>● Developed an iOS application with SwiftUI along with the MVVM architecture
-										</p>
-										<p>● Integrated real-time API updates resulting in a 25% efficiency boost in
-											power consumption</p>
-										<p>● Implemented NSNotifications for power system tracking, resulting in a
-											decrease of inefficiencies by 30%, cutting unnecessary costs through timely
-											alerts for deviations</p>
-										<p>● Visualized power consumption data throughout the day by generating
-											interactive graphs</p>
-										<p>● Enabled users to intuitively visualize and analyze power consumption
-											patterns for informed decision-making to maintain efficiency in power
-											consumption</p>
-										<p>● Leveraged Bitbucket for version control, facilitating seamless
-											collaboration and efficient code management</p>
-									</section>
-								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
 							</div>
+						
 						</section>
 
 						<!-- Personal Projects -->
@@ -170,17 +206,19 @@
 							</header>
 							<div class="row">
 								<div class="col-4 col-6-medium col-12-small">
-									<section class="box">
-										<a class="image featured"><img src="images/appstore1024.png" alt="" /></a>
+									<section class="projectBox">
+										<a  class="projectImage featured"><img src="images/appstore1024.png" alt="" /></a>
 										<header>
 											<h3>Limit- Time Management App</h3>
 										</header>
-										<p>Implemented the timer and to-do list functionality using SwiftUI, UIKit, and
-											UserNotifications frameworks</p>
-										<p>Collaborated with a backend engineer to connect Firebase with the to-do list
-											in order to update tasks</p>
-										<p>Refactored existing code using MVVM architecture to ensure code readability
-											for approval by project managers</p>
+										<div class="projectDescription">
+											<p>Implemented the timer and to-do list functionality using SwiftUI, UIKit, and
+												UserNotifications frameworks</p>
+											<p>Collaborated with a backend engineer to connect Firebase with the to-do list
+												in order to update tasks</p>
+											<p>Refactored existing code using MVVM architecture to ensure code readability
+												for approval by project managers</p>
+										</div>
 										<footer>
 											<ul class="actions">
 												<li><a href="https://github.com/Kevin10588/limit"
@@ -190,18 +228,21 @@
 									</section>
 								</div>
 								<div class="col-4 col-6-medium col-12-small">
-									<section class="box">
-										<a href="#" class="image featured"><img src="images/AngelsSplitLogo.png"
+									<section class="projectBox">
+										<a class="projectImage featured"><img src="images/AngelsSplitLogo.png"
 												alt="" /></a>
 										<header>
 											<h3>Angels Split</h3>
 										</header>
-										<p>Developed an iOS application using SwiftUI and UIKit that displays a list of
-											18 different types of workouts I currently do</p>
-										<p>Fetching data from an REST API hosted on my github repository using network
-											calls</p>
-										<p>Integrated AppStorage/Persistence to store personal records in compound lift
-										</p>
+										<div class="projectDescription">
+											<p>Developed an iOS application using SwiftUI and UIKit that displays a list of
+												18 different types of workouts I currently do</p>
+											<p>Fetching data from an REST API hosted on my github repository using network
+												calls</p>
+											<p>Integrated AppStorage/Persistence to store personal records in compound lift
+											</p>
+
+										</div>
 										<footer>
 											<ul class="actions">
 												<li><a href="https://github.com/Angel39706/AngelsSplit"
@@ -211,17 +252,19 @@
 									</section>
 								</div>
 								<div class="col-4 col-6-medium col-12-small">
-									<section class="box">
-										<a href="#" class="image featured"><img src="images/phonto-2.png" alt="" /></a>
+									<section class="projectBox">
+										<a class="projectImage featured"><img src="images/phonto-2.png" alt="" /></a>
 										<header>
 											<h3>Campus Life</h3>
 										</header>
-										<p>Produced JSON file for building information and images of California State
-											University, San Bernardino</p>
-										<p>Utilized UIKit and MapKit framework to display the accurate location of
-											buildings on campus with coordinates</p>
-										<p>Implemented MVC architecture for readability and experienced version control
-											with 3 other students</p>
+										<div class="projectDescription">
+											<p>Produced JSON file for building information and images of California State
+												University, San Bernardino</p>
+											<p>Utilized UIKit and MapKit framework to display the accurate location of
+												buildings on campus with coordinates</p>
+											<p>Implemented MVC architecture for readability and experienced version control
+												with 3 other students</p>
+										</div>
 										<footer>
 											<ul class="actions">
 												<li><a href="https://github.com/Angel39706/CampusLife"
@@ -277,6 +320,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

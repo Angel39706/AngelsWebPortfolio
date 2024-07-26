@@ -1566,15 +1566,16 @@ input, select, textarea {
 		margin: 2.25em 0 0 0;
 	}
 
-/* Box */
 
-	.box {
+/* Box */
+	.expBox {
 		background: #282C35;
 		border: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
+		height: 100%;
 	}
 
-		.box .image.featured {
+		.expBox .image.featured {
 			position: relative;
 			width: auto;
 			left: 1.75em;
@@ -1582,24 +1583,98 @@ input, select, textarea {
 			margin: -4.5em 0 4.25em -3.5em;
 		}
 
-		.box.post header {
+		.expBox.post header {
 			padding-top: 1em;
 			margin: 0 0 2em 0;
 		}
 
-		.box.post h2 {
+		.expBox.post h2 {
 			font-size: 2.5em;
 			letter-spacing: -0.015em;
 		}
 
-		.box.post header > p {
+		.expBox.post header > p {
 			margin-top: 1.25em;
 			font-size: 1.25em;
 		}
 
-		.box footer ul.actions {
+		.expBox footer ul.actions {
 			margin-bottom: 0;
 		}
+	
+	.projectBox {
+		background: #282C35;
+		border: solid 1px #ccc;
+		padding: 2.75em 1.75em 2.75em 1.75em;
+		height: 95%;
+	}
+
+		.projectBox .image.featured {
+			position: relative;
+			width: auto;
+			left: 1.75em;
+			top: 1.75em;
+			margin: -4.5em 0 4.25em -3.5em;
+		}
+
+		.projectBox.post header {
+			padding-top: 1em;
+			margin: 0 0 2em 0;
+		}
+
+		.projectBox.post h2 {
+			font-size: 2.5em;
+			letter-spacing: -0.015em;
+		}
+
+		.projectBox.post header > p {
+			margin-top: 1.25em;
+			font-size: 1.25em;
+		}
+
+		.projectBox footer ul.actions {
+			margin-bottom: 0;
+		}
+/* Project Description */
+.projectDescription {
+	height: 35%;
+}
+
+.projectDescription p {
+	font-size: 14px;
+}
+/* Carousel container */
+.carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto; /* Center the carousel */
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 6%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%;
+}
+
+.carousel-control-prev {
+    left: -4%; /* Move to the left of the carousel */
+}
+
+.carousel-control-next {
+    right: -4%; /* Move to the right of the carousel */
+}
+
+/* Icon styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333; /* Background color for icons */
+}
+
 
 /* Button */
 
@@ -1615,7 +1690,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 5px;
 		background: #d52349;
-		color: #fff !important;
+		color: #fff;
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
@@ -1715,11 +1790,44 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
 		}
 
+
+	.projectImage {
+			display: inline-block;
+			outline: 0;
+	}
+	
+		.projectImage img {
+			display: block;
+			width: 100%;
+		}
+	
+		.projectImage.centered {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+	
+			.projectImage.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
+	
+		.projectImage.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+	
+	
+		.projectImage.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
 /* List */
 
 	ul {
@@ -1927,52 +2035,12 @@ input, select, textarea {
 					line-height: 1.5em;
 				}
 
-				ul.social li a.fa-facebook {
-					background: #3c5a98;
-				}
-
-					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
-					}
-
-				ul.social li a.fa-twitter {
-					background: #2daae4;
-				}
-
-					ul.social li a.fa-twitter:hover {
-						background: #3dbaf4;
-					}
-
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
-				}
-
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
-					}
-
 				ul.social li a.fa-linkedin {
 					background: #006599;
 				}
 
 					ul.social li a.fa-linkedin:hover {
 						background: #1075a9;
-					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
 					}
 
 /* Icons */
@@ -2889,13 +2957,13 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 20px 0;
+				padding: 100px 0;
 			}
 
 		/* Footer */
 
 			#footer {
-				padding: 40px 0 20px 0;
+				padding: 60px 0 20px 0;
 			}
 
 	}
