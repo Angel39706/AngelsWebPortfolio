@@ -1606,7 +1606,7 @@ input, select, textarea {
 		background: #282C35;
 		border: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
-		width: 50%;
+		height: 100%;
 	}
 
 		.projectBox .image.featured {
@@ -1635,10 +1635,7 @@ input, select, textarea {
 		.projectBox footer ul.actions {
 			margin-bottom: 0;
 		}
-/* Project Description */
-.projectDescription p {
-	font-size: 14px;
-}
+
 /* Carousel container */
 .carousel {
     position: relative;
