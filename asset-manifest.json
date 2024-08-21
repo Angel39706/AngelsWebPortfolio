@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Angel39706/AngelsWebPortfolio/static/css/main.d1f2d764.css",
+    "main.js": "/Angel39706/AngelsWebPortfolio/static/js/main.3691f034.js",
+    "static/media/MyImage.jpg": "/Angel39706/AngelsWebPortfolio/static/media/MyImage.6df75439edf4cddbf972.jpg",
+    "static/media/appstore1024.png": "/Angel39706/AngelsWebPortfolio/static/media/appstore1024.3baa10d0f90c7debce38.png",
+    "static/media/aiFlashcard.png": "/Angel39706/AngelsWebPortfolio/static/media/aiFlashcard.8d7bf6fe3937991a1989.png",
+    "static/media/pantry.jpg": "/Angel39706/AngelsWebPortfolio/static/media/pantry.5d9a15ab2deb37498fe8.jpg",
+    "static/media/aiComplaint.jpg": "/Angel39706/AngelsWebPortfolio/static/media/aiComplaint.6f27d1533877129c7fb6.jpg",
+    "static/media/github.png": "/Angel39706/AngelsWebPortfolio/static/media/github.2ffc2ab82935b1c66351.png",
+    "static/media/phonto-2.png": "/Angel39706/AngelsWebPortfolio/static/media/phonto-2.9472de8634f55155891f.png",
+    "static/media/nodejs.png": "/Angel39706/AngelsWebPortfolio/static/media/nodejs.111f27826443c0139aaf.png",
+    "static/media/AngelsSplitLogo.png": "/Angel39706/AngelsWebPortfolio/static/media/AngelsSplitLogo.53fb66b3d843937f7a0d.png",
+    "static/media/MDNREnergyLogo.png": "/Angel39706/AngelsWebPortfolio/static/media/MDNREnergyLogo.8e77a8354f55f4d339ff.png",
+    "static/media/postgres.png": "/Angel39706/AngelsWebPortfolio/static/media/postgres.6c5d698f195dac2fe5af.png",
+    "static/media/html.png": "/Angel39706/AngelsWebPortfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/linkedin.png": "/Angel39706/AngelsWebPortfolio/static/media/linkedin.a1932ea6a351750bd0e1.png",
+    "static/media/css.png": "/Angel39706/AngelsWebPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/swift.png": "/Angel39706/AngelsWebPortfolio/static/media/swift.efa547d95655c90f5181.png",
+    "static/media/email.png": "/Angel39706/AngelsWebPortfolio/static/media/email.fca5e7d9aa8887cc629b.png",
+    "static/media/javascript.png": "/Angel39706/AngelsWebPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/ngap.webp": "/Angel39706/AngelsWebPortfolio/static/media/ngap.75ab82df21a357eb672c.webp",
+    "index.html": "/Angel39706/AngelsWebPortfolio/index.html",
+    "main.d1f2d764.css.map": "/Angel39706/AngelsWebPortfolio/static/css/main.d1f2d764.css.map",
+    "main.3691f034.js.map": "/Angel39706/AngelsWebPortfolio/static/js/main.3691f034.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1f2d764.css",
+    "static/js/main.3691f034.js"
+  ]
+}
